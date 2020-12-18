@@ -1,0 +1,15 @@
+# Default ignored files
+/.idea/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../:\Drive\Projekte\coyn\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+/src/main/resources/private.properties
