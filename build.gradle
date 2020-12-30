@@ -16,8 +16,11 @@ repositories {
 
 dependencies {
     implementation "net.dv8tion:JDA:$jdaVersion"
+    implementation "com.jagrosh:jda-utilities:$jdaUtilsVersion"
     implementation "ch.qos.logback:logback-classic:$logbackVersion"
     implementation "org.mariadb.jdbc:mariadb-java-client:$mariaVersion"
+    implementation "com.zaxxer:HikariCP:$hikariVersion"
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
 }
 
@@ -26,12 +29,8 @@ compileKotlin {
     kotlinOptions.jvmTarget = '1.8'
 }
 
-/*
- * TEST
- */
-
 test {
-    useJUnit()
+    // useJUnitPlatform()
 }
 
 compileTestKotlin {

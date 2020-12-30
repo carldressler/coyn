@@ -13,3 +13,4 @@ gradle/
 gradlew
 gradlew.bat
 /src/main/resources/private.properties
+/src/main/resources/hikari.properties
